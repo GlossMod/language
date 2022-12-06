@@ -264,6 +264,7 @@ const Mods = {
     'Not comment': 'Not comment',
     'Replied to': 'Replied to',
     'Delete': 'Delete',
+    'why': 'Why?'
 }
 
 
@@ -300,6 +301,42 @@ const ReleaseMod = {
     'Mod Game Hint': 'Please select a game',
     'Mod Type': 'Type',
     'Mod Type Hint': 'Please select Mod type',
+    'Creative Type': 'Creative Type',
+    'Authorization': 'Authorization',
+    'Version': 'Version',
+    'Author': 'Author',
+    'Original Author': 'Original Author',
+    'Important Statement': 'Important Statement',
+    'Cover': 'Cover',
+    'Cover Hint': '(Is recommended that the size be greater than 546*330. Currently, only images in jpg, jpeg, png, jpeg, and webp)',
+    'Upload Cover': 'Upload Cover',
+    'Select Image': 'Select Image',
+    'Preview': 'Preview',
+    'Reset': 'Reset',
+    'Rotate': 'Rotate',
+    'ScaleX': 'ScaleX',
+    'Fixed Range': 'Fixed Range',
+    'Unpin Range': 'Unpin Range',
+
+    'Describe': 'Describe',
+    'Tag Hint': ' Press Enter to add tags',
+
+    'Atlas': 'Atlas',
+    'Max {0}': 'Max {0}',
+    'Atlas Hint': 'Please drag and drop the picture here',
+    'File Type {0}': 'File Type {0}',
+    'Mod File': 'Mod File',
+    'Mod File Hint': 'Drag and drop here to upload files ',
+    'Upload File': 'Upload File',
+    'Add Cloud Disk': 'Add Cloud Disk',
+
+    'Save To Template': 'Save To Template',
+
+    'NSFW': 'NSFW',
+    'Is Charge': 'Is Charge',
+    'Show Ad': 'Show Ad',
+    'Enable API': 'Enable API',
+    'Release': 'Release Mod',
 }
 
 const Ajax = {
@@ -327,6 +364,9 @@ const Ajax = {
         "休闲益智": "Casual game",
         "恋爱养成": "Dating sims",
         "沙盒游戏": "Sandbox Game",
+    },
+    ...{
+        'OK': 'OK'
     }
 }
 
