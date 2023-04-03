@@ -16,6 +16,7 @@ const Header = {
     'Speed Mode': 'Speed Mode',
     'Task': 'Task',
     'Sign Out': 'Sign Out',
+    'More Settings': 'More Settings'
 }
 
 const Footer = {
@@ -43,22 +44,23 @@ const Breadcrumbs = {
 
 const Search = {
     "Search mod on this site": "Search on 3DM Mods",
-    "Here you can find what you want": "Here you can find what exactly you want",
+    "Here you can find what you want": "Here you can search for what you want",
     "No related content found": "No related content found",
     "Getting data": "Getting data..."
 }
 
 const Filter = {
-    "filter": "Filter",
+    "filter": "Screen",
     "creative type": "Types of creation",
     "update time": "Update time",
-    "sort by": "Sort by",
+    "sort by": "Sort",
     "全部": "All",
     "默认": "Default",
     "精华": "Excellent works",
     "原创": "Original",
     "二次创作": "Secondary creation",
     "汉化": "Localization",
+    "翻译": "Localization",
     "今天": "Today",
     "近7天": "7 days",
     "近30天": "30 days",
@@ -74,14 +76,14 @@ const Filter = {
 const Wiki = {
     home: {
         "title": "3DM WIKI",
-        "describe1": "Another handy platform for every creator",
+        "describe1": "Another creative platform for various writers",
         "describe2": "You can post your API documentations here and share your mod making experience",
-        "describe3": "Come and share your knowledge with more like-minded people",
+        "describe3": "Share your knowledge with more people",
         "Views": "Views",
         "Start creating": "Start creating"
     },
     Publish: {
-        "Summary": "Summary",
+        "Summary": "Catalogue",
         "Begin Title": "Start creating your Wiki page",
         "Wiki Title": "Input your Wiki Title here",
         "Wiki Describe": "Input your Wiki Description here",
@@ -125,6 +127,8 @@ const workshop = {
     '管理': 'Manage',
     '发布': 'Release',
     '特权': 'Privilege',
+    '设置': 'Settings',
+    '个人设置': 'User Settings',
     '数据概览': 'Data Overview',
     'Mod管理': 'Mod Management',
     '文章管理': 'Article Management',
@@ -188,9 +192,9 @@ const Read = {
 }
 
 const Tag = {
-    "Desc": '{0} is a tag created by creators such as {1}. We integrated the related mod works of {0} to facilitate the majority of players to view and download them.',
+    "Desc": '{0} is a tag created by {1} and other authors. We have collected {0}  mods for the convenience of the majority of players to browse and choose to download.',
     "Mods": "Mods",
-    "Articles": "Articles",
+    "Articles": "Related article",
     "Wikis": "Wikis"
 }
 
@@ -240,16 +244,16 @@ const Mods = {
     'Modify': 'Modify',
     'Translate': 'Translate',
     // 授权方式
-    'Authorization hint1': `You can't release this mod to elsewhere!`,
-    'Authorization hint2': 'if you want use, please add this address in you page!',
-    'Authorization hint3': 'You can use it anywhere!',
+    'Authorization hint1': 'Without permission, anyone is prohibited to reprint in any form!',
+    'Authorization hint2': 'When reproducing, please indicate the author and this address in a prominent position!',
+    'Authorization hint3': 'Free sharing, No selling!',
     'This mod {type} and Release By {user}, {orization}': 'This mod {type} and Release By {user}, {orization}',
 
     'Charge Warning': 'Charge Warning',
     'Warning': 'Warning',
     'Close': 'Close',
     'Continue': 'Continue',
-    'Warning Hint': 'This mod has been marked as sensitive and may not be suitable for all ages, or not suitable for public access. Please confirm you are ready!',
+    'Warning Hint': 'This Mod has been marked as sensitive, may not be suitable for all ages, or may not be suitable for public access.  Please confirm that you are mentally prepared!',
 
 
 
@@ -264,7 +268,28 @@ const Mods = {
     'Not comment': 'Not comment',
     'Replied to': 'Replied to',
     'Delete': 'Delete',
-    'why': 'Why?'
+    'why': 'Why?',
+
+    // 法律声明,
+    'Legal Notices': 'Legal Notices',
+    'Legal Notices hint': 'This work has been protected by copyright, please abide by the license agreement',
+    'License type': 'This work is licensed using『{0}』.',
+    'license statement': 'Statement',
+    'legalcode': 'Legal text',
+    'use': 'Uses',
+    'Yes/No': 'Yes/No',
+
+    // 许可
+    'use1': 'Indicate the author when promoting',
+    'use1 hint': 'Whether you place this work on another website or record it as a video, you need to clearly indicate the author in a prominent location',
+    'use2': 'Linking to this page for downloads',
+    'use2 hint': 'You need to link the download address to this page instead of uploading it elsewhere, including but not limited to website attachments, online storage services like Google Drive and Dropbox, Discord and so on.',
+    'use3': 'Commercial use',
+    'use3 hint': "Whether this work can be used for commercial purposes.",
+    "use4": "Secondary modification",
+    "use4 hint": "Whether you can make secondary modifications on this work.",
+    "use5": "Integrate into other works",
+    "use5 hint": "Whether integration of this work into other works is allowed."
 }
 
 
@@ -337,6 +362,7 @@ const ReleaseMod = {
     'Show Ad': 'Show Ad',
     'Enable API': 'Enable API',
     'Release': 'Release Mod',
+    'Update': 'Update Mod'
 }
 
 const Ajax = {
@@ -348,6 +374,7 @@ const Ajax = {
         "文章": "Articles",
         "wiki": "Wikis",
         "3DM Mod组": "Team",
+        "合集": "Summary",
     },
     ...{
         // GameGenre

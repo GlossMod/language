@@ -15,6 +15,7 @@ const Header = {
     'Speed Mode': '急速模式',
     'Task': '任务',
     'Sign Out': '退出登录',
+    'More Settings': '更多设置'
 }
 
 const Footer = {
@@ -37,7 +38,7 @@ const Breadcrumbs = {
     "Wiki": "Wiki",
     "Tag": "标签",
     "Mods": "Mods",
-    "Reads": "文章"
+    "Reads": "文章",
 }
 
 const Search = {
@@ -56,8 +57,9 @@ const Filter = {
     "默认": "默认",
     "精华": "精华",
     "原创": "原创",
-    "二次创作": "二次创作",
-    "汉化": "汉化",
+    "二次创作": "二创/整合",
+    "翻译": "翻译",
+    "转载": "转载",
     "今天": "今天",
     "近7天": "近7天",
     "近30天": "近30天",
@@ -262,7 +264,29 @@ const Mods = {
     'Not comment': '暂无评论,快来抢沙发吧~',
     'Replied to': '回复',   // xxx 回复 yyy
     'Delete': '删除',
-    'why': '为什么?'
+    'why': '为什么?',
+
+    // 法律声明,
+    'Legal Notices': '法律声明',
+    'Legal Notices hint': '本作品已受到版权保护,请遵守许可协议',
+    'License type': '本作品采用『{0}』进行许可.',
+    'license statement': '许可声明',
+    'legalcode': '法律文本',
+    'use': '用途',
+    'Yes/No': '授权',
+
+    // 许可
+    'use1': '宣传时著名作者',
+    'use1 hint': '无论您是将本作品放置在其他网站上,还是录制成视频宣传,均需要在显著位置著名作者',
+    'use2': '下载指向此页面',
+    'use2 hint': '在宣传时您需要将下载地址指向此页面,而不是上传到其他地方,包括但不限于 网站附件、网盘、QQ群、Discord 等',
+    'use3': '商业用途',
+    'use3 hint': '是否可以将本作品用于商业用途',
+    'use4': '二次修改',
+    'use4 hint': '是否可以对本作品进行二次修改',
+    'use5': '整合到其他作品',
+    'use5 hint': '是否可以将本作品整合到其他作品中',
+
 }
 
 const Game = {
@@ -333,6 +357,7 @@ const ReleaseMod = {
     'Show Ad': '显示广告',
     'Enable API': '启用API',
     'Release': '发布 Mod',
+    'Update': '更新 Mod'
 }
 
 const Ajax = {
@@ -344,6 +369,7 @@ const Ajax = {
         "文章": "文章",
         "wiki": "wiki",
         "3DM Mod组": "3DM Mod组",
+        "合集": "合集"
     },
     ...{
         // GameGenre
