@@ -153,7 +153,7 @@ const workshop = {
     '发布Mod': '发布Mod',
     '发布文章': '发布文章',
     '发布Wiki': '发布Wiki',
-    'Mdo站API': 'Mdo站API',
+    'Mdo站API': 'Mod站API',
     '3DM Mod组': '3DM Mod组',
     'Mod数量': 'Mod数量',
     '游览量': '游览量',

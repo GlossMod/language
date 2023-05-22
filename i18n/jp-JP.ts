@@ -142,7 +142,7 @@ const workshop = {
     'Wiki管理': 'ウィキ管理',
     '发布Mod': 'Mod投稿',
     '发布文章': '文章投稿',
-    'Mdo站API': 'Mdo工房API',
+    'Mdo站API': 'Mod工房API',
     '3DM Mod组': '3DM Modチーム',
     'Mod数量': 'Mod数',
     '游览量': 'アクセス数',
