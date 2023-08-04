@@ -20,3 +20,4 @@
 | zh-CN  | 小莫   |
 |  en-US | 小莫、King咕    |
 |  jp-JP | King咕    |
+|  ko-KR | ChatGPT 3.5咕    |
