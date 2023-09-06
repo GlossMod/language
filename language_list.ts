@@ -8,7 +8,7 @@
 export let list = {
     'zh-CN': '简体中文',
     'en-US': 'English',
-    'zh-TW': '正體中文'
+    'zh-TW': '繁體中文'
     'jp-JP': '日本語'
     'ko-KR': '한글',
 }
