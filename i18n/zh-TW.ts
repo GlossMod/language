@@ -302,7 +302,7 @@ const Task = {
   '下载Mod': '下載模組',
   '游览Mod': '瀏覽模組',
   '点赞Mod': '推薦模組',
-  '发布Mod': '上傳模組'
+  '发布Mod': '上傳模組',
   'Mission completed': '任務完成',
   'Reward: {0} Coin': '獎勵: {0} 個硬幣',
   'Time remaining': '剩餘: ',
