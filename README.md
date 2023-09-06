@@ -18,6 +18,8 @@
 |  语言 |  翻译 |
 | ------------ | ------------ |
 | zh-CN  | 小莫   |
+| zh-TW  | HSSadBoy   |
 |  en-US | 小莫、King咕    |
 |  jp-JP | King咕    |
 |  ko-KR | ChatGPT 3.5    |
+
