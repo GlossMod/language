@@ -19,7 +19,7 @@ const Header = {
 }
 
 const Footer = {
-  "email to us": "如您在使用模組站時遇到任何問題，可透過電子信箱寄送Email至",
+  "email to us": "如您在使用模組站時遇到任何問題，可透過Email寄送迅息至",
   "About 3DMGAME": "關於3DMGAME",
   "Job Offers": "招聘信息",
   "Sitemap": "網站地圖",
@@ -43,7 +43,7 @@ const Breadcrumbs = {
 
 const Search = {
   "Search mod on this site": "搜索本站精品作品",
-  "Here you can find what you want": "在這裡可以搜尋到你想要的東西喔",
+  "Here you can find what you want": "在此可以找到你想要的哦",
   "No related content found": "未找到相關內容",
   "Getting data": "正在獲取數據..."
 }
