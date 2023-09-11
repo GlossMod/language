@@ -11,7 +11,8 @@
 4. 翻译文本
 5. 提交 Pull Request
 
-
+> 您可以在浏览器的控制台输入 `navigator.language` 来获取您的语言代码
+> You can get your language code by typing `navigator.language` in your browser console
 
 ### 贡献
 
