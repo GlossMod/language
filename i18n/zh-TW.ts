@@ -1,32 +1,32 @@
 const Header = {
   "login": '登入',
-  "register": '註冊',
+  "register": '加入',
   "publish": '發布',
   "logout": '登出',
   "message": '訊息',
-  "ModWorkshop": 'Mod工坊',
+  "ModWorkshop": '模組工坊',
   "3DM": "主站",
   "shop": "商城",
   "forum": "論壇",
   "WebGame": "自營遊戲",
   "Search": '搜尋',
-  'Add Language': '加入語言',
+  'Add Language': '添加語言',
   'Night Mode': '夜間模式',
-  'Speed Mode': '速度模式',
+  'Speed Mode': '極速模式',
   'Task': '任務',
   'Sign Out': '登出',
   'More Settings': '更多設定'
 }
 
 const Footer = {
-  "email to us": "如您在使用模組站時遇到任何問題，可透過電子信箱寄送Email至",
+  "email to us": "如您在使用模組站時遇到任何問題，可透過Email寄送迅息至",
   "About 3DMGAME": "關於3DMGAME",
   "Job Offers": "招聘信息",
   "Sitemap": "網站地圖",
   "Contact us": "聯絡我們",
   "Media info": "媒體信息",
   "Parental Guardianship Application Guide": "家長監護申請指南",
-  "3DM Mod Team": "3DM 模組團隊",
+  "3DM Mod Team": "3DM模組團隊",
   "Discord": "Discord",
   "About 3DM Mod": "關於3DM模組站",
   "To top": "回到頂部",
@@ -43,7 +43,7 @@ const Breadcrumbs = {
 
 const Search = {
   "Search mod on this site": "搜索本站精品作品",
-  "Here you can find what you want": "在這裡可以搜尋到你想要的東西喔",
+  "Here you can find what you want": "在此可以找到你想要的哦",
   "No related content found": "未找到相關內容",
   "Getting data": "正在獲取數據..."
 }
@@ -290,7 +290,7 @@ const Mods = {
 
 const Game = {
   'All': '總量',  // 指模组更新總量
-  'New': '本月',  // 指本月新增模组
+  'New': '當月',  // 指本月新增模组
   'Genre': '遊戲類別',
   'Downloads': '總下載',
   'Likes': '總按讚',
@@ -362,11 +362,11 @@ const ReleaseMod = {
 const Ajax = {
   ...{
       // GetNavList
-      "首页": '主頁',
-      "Mod": '模組',
-      "游戏": "Games",
+      "首页": "主頁",
+      "Mod": "模組",
+      "游戏": "遊戲",
       "文章": "文章",
-      "wiki": "Wiki",
+      "wiki": "維基",
       "3DM Mod组": "3DM模組團隊",
       "合集": "合集"
   },
